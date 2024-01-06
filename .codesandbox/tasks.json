@@ -11,8 +11,12 @@
   "tasks": {
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
+    },
+    "npm install \\$\\{commandPath}": {
+      "name": "npm install \\$\\{commandPath}",
+      "command": "npm install \\$\\{commandPath}",
+      "runAtStart": true
     }
   }
 }
